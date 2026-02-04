@@ -63,6 +63,9 @@ print(f"Guesses needed: {payload['probabilistic_guesses_config_count']}")
 
 ## Interactive Demo
 
+![Win Demo](assets/win_demo_recording.gif)
+![Lose Demo](assets/lose_demo_recording.gif)
+
 Run the Streamlit demo to visualize the solver:
 
 ```bash
@@ -183,6 +186,9 @@ minesweeper-ai-solver/
 │   └── utils.py         # Helper functions
 ├── app/
 │   └── demo.py          # Streamlit interactive demo
+├── assets/
+│   ├── win_demo_recording.gif   # Demo: solver winning
+│   └── lose_demo_recording.gif  # Demo: solver losing
 ├── examples/
 │   └── quickstart.py    # Usage examples
 ├── requirements.txt
