@@ -5,6 +5,9 @@
 
 A constraint-based Minesweeper AI solver that uses multiple inference strategies to achieve high win rates. The solver combines logical deduction with probabilistic guessing to solve boards of any difficulty level.
 
+![Win Demo](assets/win_demo_recording.gif)
+![Lose Demo](assets/lose_demo_recording.gif)
+
 ## Features
 
 - **Multiple inference strategies**: Single constraint propagation, paired overlap analysis, SAT/DFS enumeration
@@ -62,9 +65,6 @@ print(f"Guesses needed: {payload['probabilistic_guesses_config_count']}")
 ```
 
 ## Interactive Demo
-
-![Win Demo](assets/win_demo_recording.gif)
-![Lose Demo](assets/lose_demo_recording.gif)
 
 Run the Streamlit demo to visualize the solver:
 
