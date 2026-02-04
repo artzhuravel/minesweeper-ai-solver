@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-A constraint-based Minesweeper AI solver that uses multiple inference strategies to achieve high win rates. The solver combines logical deduction with probabilistic guessing to solve boards of any difficulty level.
+A constraint-based Minesweeper AI solver that uses multiple inference strategies to achieve high win rates. The solver combines logical deduction with probabilistic guessing to solve boards of any difficulty level. The goal of the solver is to open/mark as many cells as possible, not necessarily to finish the game as quickly as possible.
 
 <p align="center">
   <img src="assets/win_demo_recording.gif" width="500" alt="Win Demo">
