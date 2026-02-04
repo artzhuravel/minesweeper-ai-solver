@@ -5,8 +5,10 @@
 
 A constraint-based Minesweeper AI solver that uses multiple inference strategies to achieve high win rates. The solver combines logical deduction with probabilistic guessing to solve boards of any difficulty level.
 
-![Win Demo](assets/win_demo_recording.gif)
-![Lose Demo](assets/lose_demo_recording.gif)
+<p align="center">
+  <img src="assets/win_demo_recording.gif" width="400" alt="Win Demo">
+  <img src="assets/lose_demo_recording.gif" width="400" alt="Lose Demo">
+</p>
 
 ## Features
 
