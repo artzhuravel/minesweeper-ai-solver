@@ -106,7 +106,7 @@ Run benchmarks from the command line using Python:
 # Quick benchmark (100 games on Intermediate)
 python -c "
 from minesweeper import run_solver_many_tests
-results = run_solver_many_tests(16, 16, 99, 100, 'safe_neighborhood_rule')
+results = run_solver_many_tests(16, 16, 40, 100, 'safe_neighborhood_rule')
 print(f\"Win rate: {results['win_rate']*100:.1f}%\")
 print(f\"Avg guesses: {results['avg_guesses_total']:.1f}\")
 "
